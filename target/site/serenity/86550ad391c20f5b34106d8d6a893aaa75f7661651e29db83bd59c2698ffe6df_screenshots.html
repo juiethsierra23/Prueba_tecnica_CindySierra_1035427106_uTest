@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project Using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1d955141f9692eba3ad683318ce98519a1f367c01ce9cc5f94c3e9a53edc0c2c.html">Utest Register</a></span>
+                > <span class="truncate-60"><a
+                    href="86550ad391c20f5b34106d8d6a893aaa75f7661651e29db83bd59c2698ffe6df.html">Open option to register </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-07-2021 12:41</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Utest Register </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                A user tries to register on the uTes platform
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Open option to register
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="325d72cbf66f0d1a3abdf0168facb7a65af6fdc324eb4250af34978f8e04aa7c.png" title=" Given Cindy wants to register on the uTest page
+| firstName | lastName | email | monthBirthDay | dayBirthDay | yearBirthDay | language | city | zipCode | password | passwordConfirmation |
+| Cindy | Sierra | luna-julieth@hotmail.com | April | 5 | 1992 | Spanish | Medellin | 050001 | 59yEVQArENdKPx5OMN6B | 59yEVQArENdKPx5OMN6B |" width="1034"/>
+                <img src="325d72cbf66f0d1a3abdf0168facb7a65af6fdc324eb4250af34978f8e04aa7c.png" title=" Cindy open up" width="1034"/>
+                <img src="325d72cbf66f0d1a3abdf0168facb7a65af6fdc324eb4250af34978f8e04aa7c.png" title=" Cindy opens the U testpage" width="1034"/>
+                <img src="325d72cbf66f0d1a3abdf0168facb7a65af6fdc324eb4250af34978f8e04aa7c.png" title=" Cindy open up (completed)" width="1034"/>
+                <img src="45ceb0577980641a62482002d670dd2ac9ff5da67c59584f369971f14b4b7d96.png" title=" Cindy register" width="1034"/>
+                <img src="45ceb0577980641a62482002d670dd2ac9ff5da67c59584f369971f14b4b7d96.png" title=" Cindy clicks on button that shows us the form to register" width="1034"/>
+                <img src="a23d140324ee87447a0dbe23e5963bb88f063e18020f4808f2fed3ed76ac29d8.png" title=" Cindy enters 'Cindy' into where do we write the first Name" width="1366"/>
+                <img src="abff365c8135ff72910396d09a61805d82f7f44e608939ba972cef3538748b12.png" title=" Cindy enters 'Sierra' into where do we write the last Name" width="1366"/>
+                <img src="c228093594141a8891810b64404ea926f9731aa58f71b67895a956807db9372e.png" title=" Cindy enters 'luna-julieth@hotmail.com' into where do we write the email" width="1366"/>
+                <img src="a4de9d60367a766d0ecc0039964424f5faf05bf56af30348a8c4e6fb83efb46a.png" title=" Cindy select April on where do we select the month" width="1366"/>
+                <img src="ea808592f20b37d31508c48e76acdaad1900fa86af2e344086da377f1891d248.png" title=" Cindy select 5 on where do we select the day" width="1366"/>
+                <img src="49745fcc81c8ee001fda6d73614a5163941f7327603c3dea37049dbd8294c3fa.png" title=" Cindy select 1992 on where do we select the year" width="1366"/>
+                <img src="c4928afc9f9cf744f8b0a322624838c9d5031527d6ac694545996a5a3b562fe7.png" title=" Cindy enters 'Spanish' into where do we write the language with autocomplete" width="1366"/>
+                <img src="73713b4030a642d7b9131a04c337ce3218dbfef18ad0e34f0b92b605e09426fd.png" title=" Cindy clicks on button that select" width="1366"/>
+                <img src="9d2967c5c2b4435a43fd68d4feb717607f177015a01cca8dc1a5b6b20f022e73.png" title=" Cindy clicks on button that shows us the form to register" width="1366"/>
+                <img src="23ae1dfcd3482898aadc7994202b27b4f487d9af39b66077234b2a0df52f68a7.png" title=" Cindy enters 'Medellin' into where do we write the first Name" width="1366"/>
+                <img src="61dd273142ab39733999786a6a802d80921aeedaa9e58c6c1ebd2b41d20bb516.png" title=" Cindy clicks on button that select" width="1366"/>
+                <img src="9d16c165d0cbe740b203fe73098d4881159505e681b9b231a6f435b7ccd874a0.png" title=" Cindy enters '050001' into where do we write the first Name" width="1366"/>
+                <img src="a4f7eeaef3d84521ce56b8807b0958a27d77a2bc4e208de738b4bf85665aff91.png" title=" Cindy clicks on button that shows us the form to register" width="1366"/>
+                <img src="d2deb986a7b1f18b5f2aa73ad6674df561517eb772939418475cde52ff222e7f.png" title=" Cindy clicks on button that shows us the form to register" width="1366"/>
+                <img src="f8b4ffe3f8e34a13e31b66288a1b039316b2cdd7524e9bd60aa421554cd4f723.png" title=" Cindy enters '59yEVQArENdKPx5OMN6B' into where do we write the first Name" width="1366"/>
+                <img src="acf8a63f946078d3577a9028b9a1b8cc7a01cb8d1dee86c6569439df438b0b88.png" title=" Cindy enters '59yEVQArENdKPx5OMN6B' into where do we write the first Name" width="1366"/>
+                <img src="8588d180e34e0993d681f69e9cc7764299c2255fb704775e50474e1fbc1bf36e.png" title=" Cindy clicks on button that shows us the form to register" width="1366"/>
+                <img src="3d3dafb378378d15bf189b1448e1821445cf5b6c841638ee2d1fcc0a685c3e9c.png" title=" Cindy clicks on button that shows us the form to register" width="1366"/>
+                <img src="11cbb6a713aced919098356a73ab3ae01db92bdc13be485548d18a538e626ddd.png" title=" Cindy clicks on button that shows us the form to register" width="1366"/>
+                <img src="11cbb6a713aced919098356a73ab3ae01db92bdc13be485548d18a538e626ddd.png" title=" Cindy register (completed)" width="1366"/>
+                <img src="11cbb6a713aced919098356a73ab3ae01db92bdc13be485548d18a538e626ddd.png" title=" Given Cindy wants to register on the uTest page
+| firstName | lastName | email | monthBirthDay | dayBirthDay | yearBirthDay | language | city | zipCode | password | passwordConfirmation |
+| Cindy | Sierra | luna-julieth@hotmail.com | April | 5 | 1992 | Spanish | Medellin | 050001 | 59yEVQArENdKPx5OMN6B | 59yEVQArENdKPx5OMN6B | (completed)" width="1366"/>
+                <img src="11cbb6a713aced919098356a73ab3ae01db92bdc13be485548d18a538e626ddd.png" title=" When She looks for the Join Today button at the top right of the uTest page" width="1366"/>
+                <img src="e77ebe65ce2a2fffa3c4e06820680678c3a057bef7cb554d6b757a0a5c3c565b.png" title=" Then she finds you today and registers the button: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
