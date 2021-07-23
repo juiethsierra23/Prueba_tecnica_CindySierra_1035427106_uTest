@@ -27,31 +27,26 @@ public class RegisterPage  {
             .located(By.xpath("//span[contains(@class,'ui-select-highlight')]"));
     // Step 2
 
-    public static final Target INPUT_CITY = Target.the("where do we write the first Name")
+    public static final Target INPUT_CITY = Target.the("where do we write the city")
             .located(By.id("city"));
     public static final Target SELECT_CITY = Target
             .the("button that select")
             .located(By.xpath("//div[@class='pac-item'] //span[contains(text(),'Medellin, Antioquia, Colombia')] "));
-    public static final Target INPUT_ZIP = Target.the("where do we write the first Name")
+    public static final Target INPUT_ZIP = Target.the("where we write the zip code of the area")
             .located(By.id("zip"));
     public static final Target BUTTON_NEXT = Target
-            .the("button that shows us the form to register")
+            .the("they take us to the next page")
             .located(By.xpath("//a[contains(@class,'btn btn-blue')]"));
-    // Step 3
-   // public static final Target SELECT_MOVILE_DEVICE = Target.the("where do we select the year")
-         //   .located(By.name("handsetMakerId"));
-   // public static final Target INPUT_MOVILE_DEVICE = Target
-          //  .the("where do we write the language with autocomplete")
-         //   .located(By.xpath("//input[contains(@aria-owns,'ui-select-choices-33')]"));
-    //Step 4
-    public static final Target INPUT_PASSWORD = Target.the("where do we write the first Name")
+
+    //Step
+    public static final Target INPUT_PASSWORD = Target.the("where do we write the password")
             .located(By.id("password"));
-    public static final Target INPUT_CONF_PASSWORD = Target.the("where do we write the first Name")
+    public static final Target INPUT_CONF_PASSWORD = Target.the("where do we write the confirm password")
             .located(By.id("confirmPassword"));
     public static final Target BUTTON_ACCEPT_TERMS = Target
-            .the("button that shows us the form to register")
+            .the("they take us to the next page")
             .located(By.id("termOfUse"));
     public static final Target BUTTON_ACCEPT_CONDITIONS = Target
-            .the("button that shows us the form to register")
+            .the("registration ends")
             .located(By.id("privacySetting"));
 }
